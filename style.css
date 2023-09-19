@@ -95,6 +95,10 @@ body {
   margin-bottom: var(--base-space);
 }
 
+.item.invisible {
+  display: none;
+}
+
 .item__thumbnail {
   width: var(--size-thumbnail);
   height: var(--size-thumbnail);
@@ -103,8 +107,4 @@ body {
 .item__description {
   font-size: var(--font-size);
   padding-left: var(--base-space);
-}
-
-.invisible {
-  visibility: hidden;
 }
