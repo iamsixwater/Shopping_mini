@@ -21,6 +21,7 @@ function displayItems(items) {
   container.innerHTML = items.map((item) => createHTMLString(item)).join("");
 }
 
+// handle button click event
 function onButtonClick(event, items) {
   const dataset = event.target.dataset;
   const key = dataset.key;
